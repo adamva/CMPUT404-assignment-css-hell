@@ -9,8 +9,19 @@ body {
 }
 
 /* Chater & Letter heading */
+/*
+This code was adapted from an article from rumakr03, last edited on 11 May, 2020, retrieved on 2023-02-12, to GeeksforGeeks CSS tutorial
+article here:
+https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and-css/
+*/
 .chapter h2 {
-    /* background-color: aqua; */
+    background-image: url(yellow.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 4em;
+    text-transform: uppercase;
     border-style: solid;
     border-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0)) 1;
     border-top: 0;

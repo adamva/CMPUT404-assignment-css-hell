@@ -37,4 +37,5 @@ This repo is hosted on GitHub Pages at: <https://adamva.github.io/CMPUT404-assig
 
 References
 =================
+Katariina Valen. 2021. Yellow. Retrieved from https://unsplash.com/photos/0-Qw9mYw7Lw
 Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Frankenstein, by Mary Wollstonecraft Shelley. Retrieved from https://www.gutenberg.org/files/84/84-h/84-h.htm.
