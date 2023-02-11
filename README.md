@@ -29,7 +29,7 @@ Code is licensed under the Apache 2.0 license.
 
 Modifications
 =================
-Part 1: All gutenberg files (1.html, 2.html, 3.html) have a `<link>` tag that points to a shared CSS file [[static/gutenberg.css]].
+Part 1: All gutenberg files (1.html, 2.html, 3.html) have a `<link>` tag that points to a shared [CSS file](static/gutenberg.css) `static/gutenberg.css`.
 
 Site Access
 =================
