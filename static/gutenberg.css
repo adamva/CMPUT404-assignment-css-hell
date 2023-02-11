@@ -27,7 +27,15 @@ https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and
     border-top: 0;
 }
 
-.chapter p:not([class])::first-letter {
-    font-size:2em;
+/* .chapter p.first-paragraph span.first-character { */
+.chapter p.first-paragraph::first-letter {
+    font-size:3em;
+    float: left;
+    margin-right: 0.5%;
+    padding-right: 1.5%;
+    border-style: solid;
+    border-width: 0 4pt 4pt 0;
+    border-radius: 5pt;
+    border-color: rgb(93, 47, 27);
 }
 
