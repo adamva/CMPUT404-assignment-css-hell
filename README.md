@@ -32,6 +32,9 @@ Modifications
 ## Part 1: 
 - All gutenberg files (1.html, 2.html, 3.html) have a `<link>` tag that points to a shared [CSS file](static/gutenberg.css) `static/gutenberg.css`.
 - All gutenberg files (1.html, 2.html, 3.html) have a `<class="first-paragraph">` added to the first `<p>` of each chapter.
+- All gutenberg files (1.html, 2.html, 3.html) have a `<div class="book-info">` at the top of the page for information related to Project Gutenberg, and book's title, publication, and language.
+- All gutenberg files (1.html, 2.html, 3.html) have a `<div class="book-license">` at the bottom of the page for information related to the Project Gutenberg's licence for the book.
+- The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll, [3.html](3.html) ending line `THE END` container tag has been modified from `<h3>` to `<p class="center">`
 
 Site Access
 =================
