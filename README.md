@@ -36,6 +36,7 @@ Modifications
 - All gutenberg files (1.html, 2.html, 3.html) have a `<div class="book-license">` at the bottom of the page for information related to the Project Gutenberg's licence for the book.
 - All gutenberg files (1.html, 2.html, 3.html) have a `<div class="toc">` surrounding the book's content header & chapter listing to be used as the table of contents.
 - The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll, [3.html](3.html) ending line `THE END` container tag has been modified from `<h3>` to `<p class="center">`
+- The Project Gutenberg eBook of Peter Pan, by James M. Barrie, [2.html](2.html) table of contents chapter listing has had its single `<td>` of the chpater number and name split into two individual `<td>`.
 
 Site Access
 =================
