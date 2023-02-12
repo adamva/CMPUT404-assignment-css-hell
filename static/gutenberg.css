@@ -1,6 +1,25 @@
 body {
-    /* background-color: beige; */
     background-image: linear-gradient(90deg, rgb(124, 124, 113), rgb(200, 200, 180), rgb(219, 219, 188), rgb(245, 245, 219));
+}
+
+.book-info {
+    background-color: rgba(245, 245, 220, 0.246);
+    border-style: solid;
+    border-color: rgb(104, 104, 99);
+    border-width: .15em;
+    border-radius: 5pt;
+    font-size: 1.5em;
+    padding: 0 1em;
+}
+
+.book-license {
+    background-color: rgba(245, 245, 220, 0.246);
+    border-style: solid;
+    border-color: rgb(104, 104, 99);
+    border-width: .15em;
+    border-radius: 5pt;
+    font-size: 1.5em;
+    padding: 0 1em;
 }
 
 /* Letter and Chapter text */
