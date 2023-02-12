@@ -47,6 +47,8 @@ Modifications
 References
 =================
 - Katariina Valen. 2021. Yellow. Retrieved from https://unsplash.com/photos/0-Qw9mYw7Lw
+- McGill Library. 2020. Who killed cock robin?. Retrieved from https://unsplash.com/photos/eMw-fVXNpME
 - Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll. Retrieved from https://www.gutenberg.org/files/11/11-h/11-h.htm
 - Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Frankenstein, by Mary Wollstonecraft Shelley. Retrieved from https://www.gutenberg.org/files/84/84-h/84-h.htm
 - Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Peter Pan, by James M. Barrie. Retrieved from https://www.gutenberg.org/files/16/16-h/16-h.htm
+- Shot By Ireland. 2020. Lightning black white lake. Retrieved from https://unsplash.com/photos/xUKuhL-8_60
