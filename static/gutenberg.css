@@ -2,24 +2,35 @@ body {
     background-image: linear-gradient(90deg, rgb(124, 124, 113), rgb(200, 200, 180), rgb(219, 219, 188), rgb(245, 245, 219));
 }
 
-.book-info {
+.book-info, .book-license {
     background-color: rgba(245, 245, 220, 0.246);
     border-style: solid;
     border-color: rgb(104, 104, 99);
     border-width: .15em;
     border-radius: 5pt;
+    font-family: Arial, sans-serif;
     font-size: 1.5em;
     padding: 0 1em;
 }
 
-.book-license {
-    background-color: rgba(245, 245, 220, 0.246);
-    border-style: solid;
-    border-color: rgb(104, 104, 99);
-    border-width: .15em;
-    border-radius: 5pt;
+/* Table of Contents */
+.toc table {
     font-size: 1.5em;
-    padding: 0 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.toc table tbody tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.toc table tbody tr td:nth-child(even) {
+    margin-left: 2em;
 }
 
 /* Letter and Chapter text */
@@ -28,13 +39,13 @@ body {
     font-size: 2.5em;
 }
 
-/* Chater & Letter heading */
+/* Table of Contents & Chapter heading */
 /*
 This code was adapted from an article from rumakr03, last edited on 11 May, 2020, retrieved on 2023-02-12, to GeeksforGeeks CSS tutorial
 article here:
 https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and-css/
 */
-.chapter h2 {
+.toc h2, .chapter h2 {
     background-image: url(yellow.jpg);
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -47,6 +58,7 @@ https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and
     border-top: 0;
 }
 
+/* Drop Cap first letter of first paragraph */
 .chapter p.first-paragraph::first-letter {
     font-size:3em;
     float: left;
@@ -58,6 +70,7 @@ https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and
     border-color: rgb(93, 47, 27);
 }
 
+/* Alice in Wonderland uses the <pre> tag for story related directions */
 .chapter pre {
     font-size: 2.0em;
 }
