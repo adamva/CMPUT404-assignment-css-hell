@@ -29,7 +29,9 @@ Code is licensed under the Apache 2.0 license.
 
 Modifications
 =================
-Part 1: All gutenberg files (1.html, 2.html, 3.html) have a `<link>` tag that points to a shared [CSS file](static/gutenberg.css) `static/gutenberg.css`.
+## Part 1: 
+- All gutenberg files (1.html, 2.html, 3.html) have a `<link>` tag that points to a shared [CSS file](static/gutenberg.css) `static/gutenberg.css`.
+- All gutenberg files (1.html, 2.html, 3.html) have a `<class="first-paragraph">` added to the first `<p>` of each chapter.
 
 Site Access
 =================
@@ -37,5 +39,7 @@ This repo is hosted on GitHub Pages at: <https://adamva.github.io/CMPUT404-assig
 
 References
 =================
-Katariina Valen. 2021. Yellow. Retrieved from https://unsplash.com/photos/0-Qw9mYw7Lw
-Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Frankenstein, by Mary Wollstonecraft Shelley. Retrieved from https://www.gutenberg.org/files/84/84-h/84-h.htm.
+- Katariina Valen. 2021. Yellow. Retrieved from https://unsplash.com/photos/0-Qw9mYw7Lw
+- Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll. Retrieved from https://www.gutenberg.org/files/11/11-h/11-h.htm
+- Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Frankenstein, by Mary Wollstonecraft Shelley. Retrieved from https://www.gutenberg.org/files/84/84-h/84-h.htm
+- Project Gutenberg-tm. 1993. The Project Gutenberg eBook of Peter Pan, by James M. Barrie. Retrieved from https://www.gutenberg.org/files/16/16-h/16-h.htm
