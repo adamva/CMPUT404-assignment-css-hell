@@ -27,6 +27,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Site Access
+=================
+This repo is hosted on GitHub Pages at: <https://adamva.github.io/CMPUT404-assignment-css-hell/>
+
 Modifications
 =================
 ## Part 1: 
@@ -39,10 +43,6 @@ Modifications
 - The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll, [3.html](3.html) ending line `THE END` container tag has been modified from `<h3>` to `<p class="center">`
 - The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll, [3.html](3.html) cover image tag had it's link updated to be the absolute path of the cover image hosted at `https://www.gutenberg.org/files/11/11-h/images/cover.jpg`
 - The Project Gutenberg eBook of Peter Pan, by James M. Barrie, [2.html](2.html) table of contents chapter listing has had its single `<td>` of the chpater number and name split into two individual `<td>`.
-
-Site Access
-=================
-This repo is hosted on GitHub Pages at: <https://adamva.github.io/CMPUT404-assignment-css-hell/>
 
 References
 =================
