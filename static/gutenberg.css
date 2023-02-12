@@ -5,7 +5,7 @@ body {
 /* Letter and Chapter text */
 .chapter p {
     font-family: 'Brush Script MT', cursive;
-    font-size: xx-large;
+    font-size: 2.5em;
 }
 
 /* Chater & Letter heading */
@@ -27,7 +27,6 @@ https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and
     border-top: 0;
 }
 
-/* .chapter p.first-paragraph span.first-character { */
 .chapter p.first-paragraph::first-letter {
     font-size:3em;
     float: left;
@@ -38,4 +37,3 @@ https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and
     border-radius: 5pt;
     border-color: rgb(93, 47, 27);
 }
-
