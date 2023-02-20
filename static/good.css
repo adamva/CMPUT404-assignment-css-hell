@@ -1,0 +1,82 @@
+/*  
+    airforceblue    #628395
+    beaver          #96897b
+    earthyellow     #DBAD6A
+    buff            #CF995F
+    citron          #D0CE7C
+    #
+*/
+html, body {
+    color: whitesmoke;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+a:any-link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.content {
+    height: 100%; width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* =================== NAVBAR ===================*/
+.navbar {
+    background-color: #96897b;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.navbar .section_links {
+    background-color: #D0CE7C;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex:0.5;
+}
+
+.navbar .section_title {
+    background-color: rgb(176, 148, 35);
+    display: flex;
+    align-items: flex-end;
+    flex:2;
+}
+
+.navbar .section_title h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+.navbar .section_subtitle {
+    background-color: cyan;
+    display: flex;
+    flex:1;
+}
+
+.navbar .section_subtitle h2 {
+    margin: 0;
+    font-weight: 100;
+}
+
+/* =================== INFO ===================*/
+.info {
+    background-color: #CF995F;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    flex: 1;
+}
+
+/* =================== CONTACT ===================*/
+.contact {
+    background-color: #628395;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    flex:1;
+}
