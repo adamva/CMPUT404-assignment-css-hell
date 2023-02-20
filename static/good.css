@@ -27,7 +27,7 @@ a:hover {
 
 /* =================== NAVBAR ===================*/
 .navbar {
-    background-color: #96897b;
+    background: linear-gradient(#e66465, #9198e5);
     padding-left: 20vw;
     padding-right: 20vw;
     display: flex;
@@ -35,7 +35,6 @@ a:hover {
     flex: 1;
 }
 .navbar .section_links {
-    background-color: #D0CE7C;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -43,7 +42,6 @@ a:hover {
 }
 
 .navbar .section_title {
-    background-color: rgb(176, 148, 35);
     display: flex;
     align-items: flex-end;
     flex:2;
@@ -55,7 +53,6 @@ a:hover {
 }
 
 .navbar .section_subtitle {
-    background-color: cyan;
     display: flex;
     flex:1;
 }
