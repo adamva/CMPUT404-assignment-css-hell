@@ -10,8 +10,13 @@ html, body {
     color: whitesmoke;
     margin: 0;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a:any-link {
     text-decoration: none;
 }
