@@ -85,3 +85,17 @@ a:hover {
     padding-right: 20vw;
     flex:1;
 }
+
+/* This code is modified from darylsutor codepen example on Engrave, Emboss text. Pure CSS. at codepen.io 
+code here:
+https://codepen.io/daryl/pen/XWXpyz
+*/
+.contact .footer {
+    font-size: 1.5em;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.5) 1.1px 1.1px 1px;
+}
