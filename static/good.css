@@ -15,6 +15,11 @@ html, body {
 
 h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 a:any-link {
@@ -84,11 +89,54 @@ a:hover {
 }
 
 .info img {
-    height: 170pt;
-    width: 170pt;
+    height: 150pt;
+    width: 150pt;
     border: 3pt solid #EFEFEF;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.info .card {
+    background-color: #ef7b7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* This code is modified from a CSS tutorial by W3Schools, retrieived 2023-02-20 at w3schools.com
+Tutorial here:
+https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+@media (max-width: 800px) {
+    .info .card {
+        flex-direction: column;
+    }
+}
+
+.info .card .container {
+    display:flex;
+    flex-direction: column;
+}
+
+.info .card .card_title {
+    margin-bottom: 15pt;
+}
+
+.info .card .card_title h1 {
+    font-size: 5em;
+}
+.info .card .card_title hr {
+    width: 50%;
+    margin-top: 0;
+    margin-left: 0;
+    color: EFEFEF;
+}
+
+.info .card p {
+    margin: 5pt 0;
+}
+
+.info .card:nth-child(even) {
+    background-color: #949ada;
 }
 
 /* =================== CONTACT ===================*/
