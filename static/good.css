@@ -35,6 +35,10 @@ a:hover {
     flex-direction: column;
 }
 
+hr.card_break {
+    color: #EFEFEF;
+    margin: 3em;
+}
 /* =================== NAVBAR ===================*/
 .navbar {
     background: linear-gradient(#ef7b7b, #949ada);
@@ -84,8 +88,8 @@ a:hover {
     background-color: white;
     padding-left: 20vw;
     padding-right: 20vw;
+    margin-top: 2em;
     flex: 1;
-
     border-bottom: solid #D6D6D6 1pt;
 }
 
@@ -142,10 +146,6 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
 
 .info .card p {
     margin: 5pt 0;
-}
-
-.info .card:nth-child(even) {
-    background-color: #949ada;
 }
 
 /* =================== CONTACT ===================*/
