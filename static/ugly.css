@@ -1,0 +1,40 @@
+body {
+    background-color: chartreuse;
+    background-image: url('../static/colorful-galaxy.jpg'); /* Colorful galaxy by Jeremy Thomas 2016, retrieved from https://unsplash.com/photos/E0AHdsENmDg */
+    font-family: cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.navbar {
+    background-color: rgba(137, 43, 226, 0.665);
+}
+
+.info {
+    background-color: rgba(0, 255, 255, 0.632);
+}
+
+.info img {
+    height: 150pt;
+    width: 150pt;
+    border: 3pt solid yellow;
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgba(139, 0, 139, 0.614);
+}
+
+.card:nth-child(odd) {
+    background-color: rgba(184, 135, 11, 0.541);
+}
+.contact {
+    background-color: rgba(0, 139, 139, 0.617);
+}
