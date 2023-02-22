@@ -78,7 +78,7 @@ hr.card_break {
 
 .navbar .section_title h1 {
     margin: 0;
-    font-size: 4vw;
+    font-size: 4em;
 }
 
 .navbar .section_subtitle {
@@ -92,10 +92,11 @@ hr.card_break {
     font-weight: 100;
 }
 
-/* Smaller mobile screen */
-@media (max-width: 400pt) {
-    .navbar .section_links {
-        flex-direction: column;
+/* Mobile screen */
+@media (max-width: 800pt) {
+    .navbar { 
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
 
@@ -121,15 +122,6 @@ hr.card_break {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-/* This code is modified from a CSS tutorial by W3Schools, retrieived 2023-02-20 at w3schools.com
-Tutorial here:
-https://www.w3schools.com/css/css3_flexbox_responsive.asp */
-@media (max-width: 1000pt) {
-    .info .card {
-        flex-direction: column;
-    }
 }
 
 .info .card .container_left {
@@ -199,6 +191,18 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
     border-color: #15191D;
 }
 
+/* Mobile screen */
+@media (max-width: 800pt) {
+    .info { 
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .info .card {
+        flex-direction: column;
+    }
+}
+
 /* =================== CONTACT ===================*/
 .contact {
     color: #5A5A5A;
@@ -237,4 +241,12 @@ https://codepen.io/daryl/pen/XWXpyz
     color: transparent;
     text-shadow: rgba(245,245,245,0.5) 1.1px 1.1px 1px;
     margin: 20pt auto 0 auto;
+}
+
+/* Mobile screen */
+@media (max-width: 800pt) {
+    .contact { 
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
 }
