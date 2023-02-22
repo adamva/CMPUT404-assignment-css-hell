@@ -64,7 +64,7 @@ article here:
 https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and-css/
 */
 .toc h2, .chapter h2 {
-    background-image: url(yellow.jpg); /*Yellow by Katariina Valen 2021, retrieved from https://unsplash.com/photos/0-Qw9mYw7Lw*/
+    background-image: url(yellow.jpg); /* Yellow by Katariina Valen 2021, retrieved from https://unsplash.com/photos/0-Qw9mYw7Lw */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
