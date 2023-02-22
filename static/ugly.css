@@ -15,6 +15,7 @@ p {
 
 .navbar {
     background-color: rgba(137, 43, 226, 0.665);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .info {
