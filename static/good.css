@@ -197,6 +197,14 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
     background-color: #EFEFEF;
     padding-left: 20vw;
     padding-right: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* This code is modified from darylsutor codepen example on Engrave, Emboss text. Pure CSS. retrieved 2023-02-19 at codepen.io 
@@ -211,4 +219,5 @@ https://codepen.io/daryl/pen/XWXpyz
     background-clip: text;
     color: transparent;
     text-shadow: rgba(245,245,245,0.5) 1.1px 1.1px 1px;
+    margin: 20pt auto 0 auto;
 }
