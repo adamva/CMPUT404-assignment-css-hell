@@ -205,6 +205,15 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 10pt;
+}
+
+.contact .links a:any-link{
+    color: #5A5A5A
+}
+
+.contact .links a:hover{
+    color: #424242
 }
 
 /* This code is modified from darylsutor codepen example on Engrave, Emboss text. Pure CSS. retrieved 2023-02-19 at codepen.io 
