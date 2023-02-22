@@ -31,6 +31,15 @@ Site Access
 =================
 This repo is hosted on GitHub Pages at: <https://adamva.github.io/CMPUT404-assignment-css-hell/>
 
+Gutenberg links:
+- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/1.html
+- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/2.html
+- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/3.html
+
+Homepage links
+- https://adamva.github.io/CMPUT404-assignment-css-hell/homepage/good.html
+- https://adamva.github.io/CMPUT404-assignment-css-hell/homepage/ugly.html
+
 Modifications
 =================
 ## Part 1: 
@@ -48,6 +57,7 @@ Modifications
 
 References
 =================
+- Emdon B. 2022. BenEmdon.GitHub.io. Retrieved from https://github.com/BenEmdon/BenEmdon.GitHub.io
 - Thomas J. 2016. Colorful galaxy. Retrieved from https://unsplash.com/photos/E0AHdsENmDg
 - Valen K. 2021. Yellow. Retrieved from https://unsplash.com/photos/0-Qw9mYw7Lw
 - McGill Library. 2020. Who killed cock robin?. Retrieved from https://unsplash.com/photos/eMw-fVXNpME
