@@ -1,6 +1,6 @@
 body {
     background-color: chartreuse;
-    background-image: url('../static/colorful-galaxy.jpg'); /* Colorful galaxy by Jeremy Thomas 2016, retrieved from https://unsplash.com/photos/E0AHdsENmDg */
+    background-image: url('../static/colorful-galaxy.jpg'); /* Colorful galaxy by Jeremy Thomas 2016, is licensed under https://unsplash.com/license. Retrieved from https://unsplash.com/photos/E0AHdsENmDg */
     font-family: cursive;
     text-align: center;
 }
@@ -65,4 +65,12 @@ p {
 .contact {
     background-color: rgba(0, 139, 139, 0.617);
     color: darkslategray;
+}
+
+.footer {
+    background-color: white;
+}
+
+.contact .license {
+    background-color: white;
 }
