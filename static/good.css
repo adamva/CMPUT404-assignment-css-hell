@@ -64,7 +64,8 @@ hr.card_break {
 }
 
 .section_links a:any-link {
-    color: white
+    color: white;
+    margin-top: 5pt;
 }
 
 .navbar .section_title {
@@ -77,7 +78,7 @@ hr.card_break {
 
 .navbar .section_title h1 {
     margin: 0;
-    font-size: 4em;
+    font-size: 4vw;
 }
 
 .navbar .section_subtitle {
@@ -89,6 +90,13 @@ hr.card_break {
 .navbar .section_subtitle h2 {
     margin: 0;
     font-weight: 100;
+}
+
+/* Smaller mobile screen */
+@media (max-width: 400pt) {
+    .navbar .section_links {
+        flex-direction: column;
+    }
 }
 
 /* =================== INFO ===================*/
@@ -144,7 +152,7 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
 }
 
 .info .card .card_title h1 {
-    font-size: 5em;
+    font-size: 5vw;
 }
 .info .card .card_title hr {
     width: 50%;
