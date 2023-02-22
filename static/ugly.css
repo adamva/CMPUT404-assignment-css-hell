@@ -9,6 +9,29 @@ h1 {
     font-size: 3em;
 }
 
+/* This code is modified from a CSS tutorial on shake animation by @lakshgoel204, last updated at 2022-07-31, retrieved on 2023-02-22, at geeksforgeeks.org
+tutorial here:
+https://www.geeksforgeeks.org/how-to-shake-text-on-hover-using-html-and-css/
+*/
+div:hover h1{
+    animation:  shake 0.8s  ;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0)
+    }
+    25%{
+        transform: translateX(25px);
+    }
+        
+    50%{
+        transform: translateX(-25px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
 p {
     font-size: 2em;
 }
