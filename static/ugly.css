@@ -19,6 +19,7 @@ p {
 
 .info {
     background-color: rgba(0, 255, 255, 0.632);
+    color:aqua;
 }
 
 .info img {
@@ -30,11 +31,14 @@ p {
 
 .card {
     background-color: rgba(139, 0, 139, 0.614);
+    color:brown
 }
 
-.card:nth-child(odd) {
+.card:nth-child(1) {
     background-color: rgba(184, 135, 11, 0.541);
+    color: aliceblue;
 }
 .contact {
     background-color: rgba(0, 139, 139, 0.617);
+    color: darkslategray;
 }
