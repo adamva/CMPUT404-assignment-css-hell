@@ -1,3 +1,16 @@
+Site Access
+=================
+This repo is hosted on GitHub Pages at: <https://adamva.github.io/CMPUT404-assignment-css-hell/>
+
+Gutenberg links:
+- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/1.html
+- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/2.html
+- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/3.html
+
+Homepage links
+- https://adamva.github.io/CMPUT404-assignment-css-hell/homepage/good.html
+- https://adamva.github.io/CMPUT404-assignment-css-hell/homepage/ugly.html
+
 Assignment: CSS Hell
 ====================
 
@@ -26,19 +39,6 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
-
-Site Access
-=================
-This repo is hosted on GitHub Pages at: <https://adamva.github.io/CMPUT404-assignment-css-hell/>
-
-Gutenberg links:
-- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/1.html
-- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/2.html
-- https://adamva.github.io/CMPUT404-assignment-css-hell/gutenberg/3.html
-
-Homepage links
-- https://adamva.github.io/CMPUT404-assignment-css-hell/homepage/good.html
-- https://adamva.github.io/CMPUT404-assignment-css-hell/homepage/ugly.html
 
 Modifications
 =================
